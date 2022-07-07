@@ -11,11 +11,11 @@ class MaxHeap{
         return Math.floor(i/2)
     }
 
-    getRight(i){//Gets right index of root
+    getLeft(i){//Gets left index of root
         return 2*i
     }
 
-    getLeft(i){//Gets left index of root
+    getRight(i){//Gets right index of root
         return 2*i+1
     }
 
